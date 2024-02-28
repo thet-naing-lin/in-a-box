@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritional Information App Page</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- bootstrp css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap icon link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+</head>
+
+
+<body class="bg-success-subtle">
+
+    <!-- nav bar start -->
+    <my-header></my-header>
+    <!-- nav bar close -->
+
+    <!-- nutritional app start -->
+    <div class="nutritionalApp">
+        <div class="header" style="background-image: url(./image/app1.jpeg);">
+            <div class="color-overlay text-black d-flex flex-column justify-content-center ms-lg-5">
+                <h5 class="text-muted">Download The App</h5>
+                <h2 class="">Tracking is key to success</h2>
+                <p class="fw-medium">With the MyPlate app, you have the entire program at your finger tips.
+                    Tracking macros, food, and weight is a snap.</p>
+                <div class="d-flex d-block">
+                    <div class="">
+                        <a href="https://play.google.com/store/apps/details?id=gov.usda.startsimple&hl=en&gl=US"
+                            class="text-decoration-none btn btn-success text-white rounded-4 px-4 mb-3"
+                            target="_blank">Download
+                            Andriod
+                            App</a>
+                        <br class="d-block d-md-none">
+                        <a href="https://apps.apple.com/ca/app/myplate-calorie-tracker/id502317923"
+                            class="text-decoration-none btn btn-success text-white rounded-4 px-4 mb-3"
+                            target="_blank">Download
+                            Iphone
+                            App</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br>
+        <div class="row justify-content-evenly mx-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                <div class="card shadow w-100 h-100" style="width: 18rem;">
+                    <img src="./image/app2.webp" class="card-img-top">
+                    <div class="card-body">
+                        <p class="text-muted">Best meal planning app</p>
+                        <h5 class="card-title">PlateJoy</h5>
+                        <p class="card-text">It uses a questionnaire to collect details about your lifestyle, cooking
+                            habits, and dietary preferences and then creates a custom meal plan and shopping list for
+                            your household.</p>
+                        <div class="d-flex flex-column">
+                            <a href="https://play.google.com/store/apps/details?id=com.platejoy.app&hl=en&gl=US"
+                                class="btn btn-outline-success mb-3" target="_blank">Download Andriod App</a>
+                            <a href="https://apps.apple.com/us/app/platejoy/id1105164430"
+                                class="btn btn-outline-success" target="_blank">Download Iphone App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+                <div class="card shadow w-100 h-100" style="width: 18rem;">
+                    <img src="./image/app3.png" class="card-img-top">
+                    <div class="card-body">
+                        <p class="text-muted">Best nutrition education app</p>
+                        <h5 class="card-title">Noom</h5>
+                        <p class="card-text">Offering custom meal plans, weekly challenges, and access to a virtual
+                            coaching team</p>
+                        <div class="d-flex flex-column" style="margin-top: 70px;">
+                            <a href="https://play.google.com/store/apps/details?id=com.wsl.noom&hl=en&gl=US"
+                                class="btn btn-outline-success mb-3" target="_blank">Download Andriod App</a>
+                            <a href="https://apps.apple.com/us/app/noom-healthy-weight-loss/id634598719"
+                                class="btn btn-outline-success" target="_blank">Download Iphone App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nutritional app end -->
+
+    <!-- footer start -->
+    <my-footer></my-footer>
+    <!-- footer end -->
+
+</body>
+
+<!-- bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+<script type="module" src="./index.js"></script>
+
+</html>
